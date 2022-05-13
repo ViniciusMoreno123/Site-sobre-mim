@@ -1,0 +1,25 @@
+h1{
+    color:black;
+    
+    }
+    *{
+    border:solid;
+    }
+
+.topo{
+background-color:grey;
+display:flex;
+justify-content: space-between;
+}
+.menu{
+background-color:gray;
+}
+.gradeGeral{
+display:flex;
+flex-wrap:wrap;
+justify-content:space-evenly;
+}
+.redessociais{
+display:flex;
+justify-content:flex-end;
+}
