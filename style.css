@@ -1,15 +1,25 @@
 h1{
     color:black;
+    background-color:#AAAAAA;
     
     }
-    *{
+    /* *{
     border:solid;
-    }
+    } */
+
+body{
+    background-color:#808080;
+}
+h2{
+background-color:#AAAAAA;
+}
+
 
 .topo{
-background-color:grey;
+background-color:#AAAAAA;
 display:flex;
 justify-content: space-between;
+
 }
 .menu{
 background-color:gray;
@@ -22,4 +32,16 @@ justify-content:space-evenly;
 .redessociais{
 display:flex;
 justify-content:flex-end;
+}
+.Projeto{
+    background-color:#6E6E6E;
+    text-align:center;
+    padding-left:30px;
+    padding-right:30px;
+    padding-bottom:10px;
+    border-style:dashed;
+    font-size:20px;
+    text-decoration-line:underline;
+    text-shadow: 1px 1px white;
+
 }
