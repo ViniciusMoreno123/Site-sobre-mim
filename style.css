@@ -13,7 +13,9 @@ body{
 h2{
 background-color:#AAAAAA;
 }
-
+h3{
+    background-color:#AAAAAA;
+    }
 
 .topo{
 background-color:#AAAAAA;
@@ -23,6 +25,12 @@ justify-content: space-between;
 }
 .menu{
 background-color:gray;
+/*border: solid;*/
+}
+.menudomenu{
+margin-top: 10px;
+margin-bottom: 10px;
+font-size: 20px;
 }
 .gradeGeral{
 display:flex;
@@ -43,5 +51,42 @@ justify-content:flex-end;
     font-size:20px;
     text-decoration-line:underline;
     text-shadow: 1px 1px white;
+    position:relative;
+
 
 }
+
+.Projeto p{
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+opacity:0;
+
+}
+.Projeto:hover p{
+opacity:1;
+}
+.Projeto:hover img{
+
+    opacity:0.33;
+}
+a:link{
+color:black;
+
+}
+a:visited{
+color:black;
+}
+a{
+font-size:20px;
+}
+a:hover{
+font-size:30px;
+}
+.BYJUS{
+display:flex;
+justify-content:flex-end;
+}
+
+
